@@ -1,5 +1,5 @@
 const { pool } = require('../config');
-const Tarefa = require('../entities/Tarefa');
+const Tarefa = require('../entities/tarefa');
 
 const getTarefasDB = async () => {
     try {
